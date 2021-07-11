@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body, #app {
+    width: 100vw;
+    height: 100vh;
+}
+
+.umbrella {
+    width: 100vw;
+    height: 200vh;
+    padding: 50px 150px;
+}
+
+.umbrella__change-units {
+    position: absolute;
+    right: 60px;
+    top: 20px;
+    margin-left: auto;
+}
+
+.umbrella__change-units__change {
+    cursor: pointer;
+}

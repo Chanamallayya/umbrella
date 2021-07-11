@@ -1,0 +1,114 @@
+.umbrella__header {
+    width: 100vw;
+    height: 10vh;
+}
+.umbrella__searchbar {
+    width: 100vw;
+    height: 6vh;
+    display: flex;
+}
+
+.umbrella__searchbar__input {
+    width: 60%;
+    padding-left: 30px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.umbrella__searchbar__submit {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.umbrella__overview {
+    height: 14vh;
+    width: 100vw;
+    padding-top: 5rem;
+}
+
+.umbrella__overview__city {
+    display: inline;
+    margin-right: 140px;
+}
+
+.umbrella__overview__temperature {
+    display: inline;
+}
+
+.umbrella__overview__weather__main, .umbrella__overview__weather__desc {
+    margin-right: 10px;
+    display: inline;
+}
+
+.umbrella__overview__table {
+    width: 60vw;
+    margin-top: 2rem;
+    
+}
+.umbrella__graphs {
+    margin-top: 60vh;
+    height: 80vh;
+    width: 100vw;
+}
+
+.umbrella__graphs__add-cities {
+    margin: 20px;
+    width: 60vh;
+}
+
+.umbrella__graphs__add-cities__input {
+    border-radius: 30px;
+    margin-right: 20px;
+    width: 60%;
+    border: 1px solid gray;
+    outline: none;
+    padding-left: 30px; 
+}
+
+.umbrella__graphs__add-cities__submit {
+    cursor: pointer;
+}
+
+.umbrella__graphs__parameters {
+    margin-top: 20px;
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.umbrella__graphs__parameters__parameter {
+    cursor: pointer;
+    display: block;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body, #app {
+    width: 100vw;
+    height: 100vh;
+}
+
+.umbrella {
+    width: 100vw;
+    height: 200vh;
+    padding: 50px 150px;
+}
+
+.umbrella__change-units {
+    position: absolute;
+    right: 60px;
+    top: 20px;
+    margin-left: auto;
+}
+
+.umbrella__change-units__change {
+    cursor: pointer;
+}
+
+
+/*# sourceMappingURL=/umbrella.e31bb0bc.css.map */

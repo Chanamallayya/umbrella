@@ -1,0 +1,18 @@
+.umbrella__searchbar {
+    width: 100vw;
+    height: 6vh;
+    display: flex;
+}
+
+.umbrella__searchbar__input {
+    width: 60%;
+    padding-left: 30px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.umbrella__searchbar__submit {
+    margin-left: 5px;
+    cursor: pointer;
+}

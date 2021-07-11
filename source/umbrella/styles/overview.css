@@ -1,0 +1,25 @@
+.umbrella__overview {
+    height: 14vh;
+    width: 100vw;
+    padding-top: 5rem;
+}
+
+.umbrella__overview__city {
+    display: inline;
+    margin-right: 140px;
+}
+
+.umbrella__overview__temperature {
+    display: inline;
+}
+
+.umbrella__overview__weather__main, .umbrella__overview__weather__desc {
+    margin-right: 10px;
+    display: inline;
+}
+
+.umbrella__overview__table {
+    width: 60vw;
+    margin-top: 2rem;
+    
+}
