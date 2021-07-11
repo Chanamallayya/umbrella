@@ -15,7 +15,3 @@ Technologies:
     - Bootstrap
     - Parcel
 
-Name: Chanamallayya Hiremath
-USN: 1DS17CS714
-Email: chanamallayya@tutanota.com
-Phone: 7259818428
